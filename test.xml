@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<forms>
+	<form id='SC1911' type='Census' title='1911 SC Census' date='1911-04-02'>
+		<heading>
+			<_attribute>Civil Parish</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Parish Ward</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Ecclesiastical Parish</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Quoad Sacra Parish</_attribute>
+		</heading>
+		<heading>
+			<_attribute>School Board District</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Burgh Ward</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Special Water District</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Special Drainage District</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Parliamentary Burgh</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Parliamentary Constituency</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Municipal Burgh</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Police Burgh</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Special Scavenging District</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Special Lighting District</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Island</_attribute>
+		</heading>
+		<section role='Primary' type='multi'>
+			<column>
+				<_attribute>Name</_attribute>
+				<size>25</size>
+				<_longname>Name and Surname of each Person</_longname>
+			</column>
+			<column>
+				<_attribute>No. of Schedule</_attribute>
+				<size>7</size>
+			</column>
+			<column>
+				<_attribute>Address</_attribute>
+				<size>25</size>
+				<_longname>Road, Street, etc., and No. or Name of House</_longname>
+			</column>
+			<column>
+				<_attribute>House Inhabited</_attribute>
+				<size>5</size>
+			</column>
+			<column>
+				<_attribute>House U or B</_attribute>
+				<size>5</size>
+			</column>
+			<column>
+				<_attribute>WindowRooms</_attribute>
+				<size>5</size>
+				<_longname>Rooms with one or more Windows</_longname>
+			</column>
+			<column>
+				<_attribute>Persons in House</_attribute>
+				<size>5</size>
+				<_longname>Number of Persons in House</_longname>
+			</column>
+			<column>
+				<_attribute>Relation</_attribute>
+				<size>10</size>
+				<_longname>Relation to Head of Family</_longname>
+			</column>
+			<column>
+				<_attribute>Age (M)</_attribute>
+				<size>5</size>
+				<_longname>Age: Males</_longname>
+			</column>
+			<column>
+				<_attribute>Age (F)</_attribute>
+				<size>5</size>
+				<_longname>Age: Females</_longname>
+			</column>
+			<column>
+				<_attribute>Gaelic</_attribute>
+				<size>7</size>
+				<_longname>G. or G. &amp; E.</_longname>
+			</column>
+			<column>
+				<_attribute>Condition</_attribute>
+				<size>7</size>
+				<_longname>Condition as to Marriage</_longname>
+			</column>
+			<column>
+				<_attribute>Duration of Marriage</_attribute>
+				<size>5</size>
+				<_longname>Married Women: Duration of Present Marriage in Years</_longname>
+			</column>
+			<column>
+				<_attribute>Children Born Alive</_attribute>
+				<size>5</size>
+				<_longname>Married Women: Total Children Born Alive</_longname>
+			</column>
+			<column>
+				<_attribute>Children Still Living</_attribute>
+				<size>5</size>
+				<_longname>Married Women: Children Still Living</_longname>
+			</column>
+			<column>
+				<_attribute>Personal Occupation</_attribute>
+				<size>18</size>
+			</column>
+			<column>
+				<_attribute>Industry or Service</_attribute>
+				<size>18</size>
+				<_longname>Industry or Service with which Worker is connected</_longname>
+			</column>
+			<column>
+				<_attribute>Employer, Worker or Own Account</_attribute>
+				<size>7</size>
+			</column>
+			<column>
+				<_attribute>Working at Home</_attribute>
+				<size>7</size>
+			</column>
+			<column>
+				<_attribute>Birthplace</_attribute>
+				<size>15</size>
+			</column>
+			<column>
+				<_attribute>Nationality</_attribute>
+				<size>10</size>
+				<_longname>Nationality if born in a Foreign Country</_longname>
+			</column>
+			<column>
+				<_attribute>Disabled</_attribute>
+				<size>7</size>
+				<_longname>Whether 1. Totally Deaf or Deaf and Dumb, 2. Totally Blind, 3. Lunatic, 4. Imbecile or Feeble-Minded</_longname>
+			</column>
+		</section>
+	</form>
+	<form id='SC1921' type='Census' title='1921 SC Census' date='1921-06-19'>
+		<heading>
+			<_attribute>Civil Parish</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Burgh</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Ecclesiastical Parish</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Quoad Sacra Parish</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Parish Ward</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Burgh Ward</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Parliamentary Constituency</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Special Water District</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Special Lighting District</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Island</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Special Drainage District</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Special Scavenging District</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Military/Naval/Shipping Population</_attribute>
+		</heading>
+		<section role='Primary' type='multi'>
+			<column>
+				<_attribute>Name</_attribute>
+				<size>25</size>
+				<_longname>Name and Surname of each Person</_longname>
+			</column>
+			<column>
+				<_attribute>No. of Schedule</_attribute>
+				<size>7</size>
+			</column>
+			<column>
+				<_attribute>Address</_attribute>
+				<size>25</size>
+				<_longname>Road, Street, etc., and No. or Name of House</_longname>
+			</column>
+			<column>
+				<_attribute>House Rooms</_attribute>
+				<size>5</size>
+				<_longname>Houses: Rooms</_longname>
+			</column>
+			<column>
+				<_attribute>House Persons</_attribute>
+				<size>5</size>
+				<_longname>Houses: Persons</_longname>
+			</column>
+			<column>
+				<_attribute>Holdings Rooms</_attribute>
+				<size>5</size>
+				<_longname>Holdings: Rooms</_longname>
+			</column>
+			<column>
+				<_attribute>Holdings Persons</_attribute>
+				<size>5</size>
+				<_longname>Holdings: Persons</_longname>
+			</column>
+			<column>
+				<_attribute>Relation</_attribute>
+				<size>10</size>
+				<_longname>Relationship to Head of Household</_longname>
+			</column>
+			<column>
+				<_attribute>Age (Years)</_attribute>
+				<size>5</size>
+			</column>
+			<column>
+				<_attribute>Age (Months)</_attribute>
+				<size>5</size>
+			</column>
+			<column>
+				<_attribute>Sex</_attribute>
+				<size>3</size>
+			</column>
+			<column>
+				<_attribute>Marriage/Orphanhood</_attribute>
+				<size>7</size>
+				<_longname>Age 15+: Marital Status. Under 15: Whether parents are alive or dead.</_longname>
+			</column>
+			<column>
+				<_attribute>Birthplace</_attribute>
+				<size>15</size>
+			</column>
+			<column>
+				<_attribute>Nationality</_attribute>
+				<size>10</size>
+			</column>
+			<column>
+				<_attribute>Gaelic</_attribute>
+				<size>7</size>
+				<_longname>Whether the person speaks Gaelic</_longname>
+			</column>
+			<column>
+				<_attribute>Personal Occupation</_attribute>
+				<size>18</size>
+			</column>
+			<column>
+				<_attribute>Status</_attribute>
+				<size>7</size>
+				<_longname>Employer, Worker, or on Own Account</_longname>
+			</column>
+			<column>
+				<_attribute>Employment</_attribute>
+				<size>25</size>
+				<_longname>Industry or Service with which Worker is connected, and Employer's Name</_longname>
+			</column>
+			<column>
+				<_attribute>National Health Insurance</_attribute>
+				<size>7</size>
+			</column>
+			<column>
+				<_attribute>Dependent Children (Number)</_attribute>
+				<size>5</size>
+			</column>
+			<column>
+				<_attribute>Dependent Children (Ages)</_attribute>
+				<size>10</size>
+			</column>
+		</section>
+	</form>
+	<form id='IE1926' type='Census' title='1926 Census of the Irish Free State' date='1926-04-18'>
+		<heading>
+			<_attribute>No. of Schedule</_attribute>
+		</heading>
+		<heading>
+			<_attribute>County or Co. Borough</_attribute>
+		</heading>
+		<heading>
+			<_attribute>D.E.D. or Ward</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Townland</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Urban Dist. Town or Village</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Street, &amp;c with No. of House</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Persons</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Males</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Females</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Rooms</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Institution or Barracks</_attribute>
+			<_longname>In the case of Special Inmates of Public Institutions and of the Military, Air Force, and Civic Guards in Barracks, state name of Institution or Barracks</_longname>
+		</heading>
+		<heading>
+			<_attribute>Agricultural Holdings (Statute Acres)</_attribute>
+			<_longname>Total area in statute acres of all agricultural holdings (if any) situated in the Irish Free State of which persons usually resident in this household are the rated occupiers.</_longname>
+		</heading>
+		<section role='Primary' type='multi'>
+			<column>
+				<_attribute>Name</_attribute>
+				<size>18</size>
+				<_longname>Name and Surname</_longname>
+			</column>
+			<column>
+				<_attribute>Relation</_attribute>
+				<size>10</size>
+				<_longname>Relationship to Head of Household</_longname>
+			</column>
+			<column>
+				<_attribute>Age (Years)</_attribute>
+				<size>4</size>
+			</column>
+			<column>
+				<_attribute>Age (Months)</_attribute>
+				<size>4</size>
+			</column>
+			<column>
+				<_attribute>Sex</_attribute>
+				<size>3</size>
+				<_longname>If Male write "M." If Female write "F."</_longname>
+			</column>
+			<column>
+				<_attribute>Marriage/Orphanhood</_attribute>
+				<size>10</size>
+				<_longname>Age 15+: "Single," "Married," "Widower," or "Widow." Under 15: "Both parents alive," "Father is dead," "Mother is dead," or "Both parents dead."</_longname>
+			</column>
+			<column>
+				<_attribute>Birthplace</_attribute>
+				<size>15</size>
+				<_longname>If born in Ireland, write name of County and of Townland or Town. If born outside Ireland, write name of Country and of County, State, Province or District. If born at sea, write "At sea."</_longname>
+			</column>
+			<column>
+				<_attribute>Irish Language</_attribute>
+				<size>12</size>
+				<_longname>"Irish only" (speaks only Irish); "Irish and English" (native Irish speaker who can also speak English); "English and Irish" (speaks both but not a native Irish speaker); "Read but cannot speak Irish." Leave blank for persons who can neither speak nor read Irish.</_longname>
+			</column>
+			<column>
+				<_attribute>Religion</_attribute>
+				<size>10</size>
+				<_longname>Religion or Religious Denomination. Members of Protestant Denominations should state name of particular Church, Denomination or body.</_longname>
+			</column>
+			<column>
+				<_attribute>Personal Occupation</_attribute>
+				<size>18</size>
+			</column>
+			<column>
+				<_attribute>Employment</_attribute>
+				<size>18</size>
+				<_longname>(1) If working for an Employer, state name and business of Employer. (2) If Out of Work, give same particulars for last employer. (3) If employing paid persons, write "Employer." (4) If working on own account, write "Own account." For Domestic Servants and private personal service, write "Private."</_longname>
+			</column>
+			<column>
+				<_attribute>Duration of Marriage (Years)</_attribute>
+				<size>4</size>
+				<_longname>Married Women: Completed years the present marriage has lasted.</_longname>
+			</column>
+			<column>
+				<_attribute>Duration of Marriage (Months)</_attribute>
+				<size>4</size>
+				<_longname>Married Women: Completed months the present marriage has lasted.</_longname>
+			</column>
+			<column>
+				<_attribute>Children Born Alive</_attribute>
+				<size>5</size>
+				<_longname>Married Women: Number of children born alive to the present marriage. If none, write "None."</_longname>
+			</column>
+			<column>
+				<_attribute>Dependants Under 18</_attribute>
+				<size>7</size>
+				<_longname>Married Men, Widowers and Widows: Number of living sons, daughters, step-sons and step-daughters under 18 years of age, whether residing in this household or elsewhere. If none, write "None."</_longname>
+			</column>
+		</section>
+	</form>
+    <form id='USDclInt' type='Declaration' title='US Declaration of Intention'>
+        <heading>
+            <_attribute>Document No.</_attribute>
+        </heading>
+        <heading>
+            <_attribute>State</_attribute>
+        </heading>
+        <heading>
+            <_attribute>District or County</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Court</_attribute>
+        </heading>
+        <section role='Primary' type='person' title='Declarant'>
+            <column>
+                <_attribute>Name</_attribute>
+            </column>
+            <column>
+                <_attribute>Other Names Used</_attribute>
+            </column>
+            <column>
+                <_attribute>Age</_attribute>
+            </column>
+            <column>
+                <_attribute>Occupation</_attribute>
+            </column>
+            <column>
+                <_attribute>Sex</_attribute>
+            </column>
+            <column>
+                <_attribute>Color</_attribute>
+            </column>
+            <column>
+                <_attribute>Complexion</_attribute>
+            </column>
+            <column>
+                <_attribute>Height</_attribute>
+            </column>
+            <column>
+                <_attribute>Weight</_attribute>
+            </column>
+            <column>
+                <_attribute>Hair</_attribute>
+            </column>
+            <column>
+                <_attribute>Eyes</_attribute>
+            </column>
+            <column>
+                <_attribute>Distinctive Marks</_attribute>
+            </column>
+            <column>
+                <_attribute>Race</_attribute>
+            </column>
+            <column>
+                <_attribute>Nationality</_attribute>
+            </column>
+            <column>
+                <_attribute>Date of Birth</_attribute>
+            </column>
+            <column>
+                <_attribute>Birthplace</_attribute>
+            </column>
+            <column>
+                <_attribute>Address</_attribute>
+            </column>
+            <column>
+                <_attribute>Last Foreign Residence</_attribute>
+            </column>
+            <column>
+                <_attribute>Port of Emigration</_attribute>
+            </column>
+            <column>
+                <_attribute>Vessel</_attribute>
+            </column>
+            <column>
+                <_attribute>Port of Arrival</_attribute>
+            </column>
+            <column>
+                <_attribute>State of Arrival</_attribute>
+            </column>
+            <column>
+                <_attribute>Date of Arrival</_attribute>
+            </column>
+            <column>
+                <_attribute>Entry Name</_attribute>
+                <_longname>Name as recorded on arrival record</_longname>
+            </column>
+            <column>
+                <_attribute>Marital Status</_attribute>
+            </column>
+            <column>
+                <_attribute>Number of Children</_attribute>
+            </column>
+            <column>
+                <_attribute>Allegiance Renounced</_attribute>
+                <_longname>Sovereign, state, or sovereignty renounced</_longname>
+            </column>
+            <column>
+                <_attribute>Previous Declaration No.</_attribute>
+            </column>
+            <column>
+                <_attribute>Previous Declaration Date</_attribute>
+            </column>
+            <column>
+                <_attribute>Previous Declaration Court</_attribute>
+            </column>
+            <column>
+                <_attribute>Certification No.</_attribute>
+                <_longname>Certificate of Arrival certification number</_longname>
+            </column>
+        </section>
+        <section role='Spouse' type='person' title='Spouse'>
+            <column>
+                <_attribute>Name</_attribute>
+            </column>
+            <column>
+                <_attribute>Date of Birth</_attribute>
+            </column>
+            <column>
+                <_attribute>Birthplace</_attribute>
+            </column>
+            <column>
+                <_attribute>Marriage Date</_attribute>
+            </column>
+            <column>
+                <_attribute>Marriage Place</_attribute>
+            </column>
+            <column>
+                <_attribute>US Entry Date</_attribute>
+            </column>
+            <column>
+                <_attribute>US Entry Place</_attribute>
+            </column>
+            <column>
+                <_attribute>Residence</_attribute>
+            </column>
+        </section>
+        <section role='Child' type='multi' title='Children'>
+            <column>
+                <_attribute>Name</_attribute>
+            </column>
+            <column>
+                <_attribute>Date of Birth</_attribute>
+            </column>
+            <column>
+                <_attribute>Birthplace</_attribute>
+            </column>
+            <column>
+                <_attribute>Residence</_attribute>
+            </column>
+        </section>
+    </form>
+    <form id='USPetNat' type='Petition' title='US Petition for Naturalization'>
+        <heading>
+            <_attribute>Document No.</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Filed Under</_attribute>
+            <_longname>Section of law under which petition is filed</_longname>
+        </heading>
+        <heading>
+            <_attribute>Court</_attribute>
+        </heading>
+        <heading>
+            <_attribute>District</_attribute>
+        </heading>
+        <heading>
+            <_attribute>State or County</_attribute>
+        </heading>
+        <section role='Primary' type='person' title='Petitioner'>
+            <column>
+                <_attribute>Name</_attribute>
+            </column>
+            <column>
+                <_attribute>Former Name</_attribute>
+                <_longname>Any other name by which petitioner is or has been known</_longname>
+            </column>
+            <column>
+                <_attribute>Age</_attribute>
+            </column>
+            <column>
+                <_attribute>Date of Birth</_attribute>
+            </column>
+            <column>
+                <_attribute>Birthplace</_attribute>
+            </column>
+            <column>
+                <_attribute>Race</_attribute>
+            </column>
+            <column>
+                <_attribute>Nationality</_attribute>
+            </column>
+            <column>
+                <_attribute>Occupation</_attribute>
+            </column>
+            <column>
+                <_attribute>Address</_attribute>
+            </column>
+            <column>
+                <_attribute>Sex</_attribute>
+            </column>
+            <column>
+                <_attribute>Complexion</_attribute>
+            </column>
+            <column>
+                <_attribute>Color of Eyes</_attribute>
+            </column>
+            <column>
+                <_attribute>Color of Hair</_attribute>
+            </column>
+            <column>
+                <_attribute>Height</_attribute>
+            </column>
+            <column>
+                <_attribute>Weight</_attribute>
+            </column>
+            <column>
+                <_attribute>Distinctive Marks</_attribute>
+            </column>
+            <column>
+                <_attribute>Marital Status</_attribute>
+            </column>
+            <column>
+                <_attribute>Number of Children</_attribute>
+            </column>
+            <column>
+                <_attribute>Last Foreign Residence</_attribute>
+            </column>
+            <column>
+                <_attribute>Port of Emigration</_attribute>
+            </column>
+            <column>
+                <_attribute>Entry Name</_attribute>
+                <_longname>Name as recorded on arrival record</_longname>
+            </column>
+            <column>
+                <_attribute>Entry Place</_attribute>
+            </column>
+            <column>
+                <_attribute>Entry Date</_attribute>
+            </column>
+            <column>
+                <_attribute>Vessel</_attribute>
+            </column>
+            <column>
+                <_attribute>Continuous Residence Since</_attribute>
+                <_longname>Date of continuous residence in the United States</_longname>
+            </column>
+            <column>
+                <_attribute>County of Residence</_attribute>
+            </column>
+            <column>
+                <_attribute>Allegiance Renounced</_attribute>
+                <_longname>Sovereign, state, or sovereignty renounced</_longname>
+            </column>
+            <column>
+                <_attribute>Travel Absences</_attribute>
+                <_longname>Absences from the United States of 6 months or longer. Record as: Port, Date, Vessel (departure) / Port, Date, Vessel (return).</_longname>
+            </column>
+            <column>
+                <_attribute>Declaration of Intention No.</_attribute>
+            </column>
+            <column>
+                <_attribute>Declaration of Intention Date</_attribute>
+            </column>
+            <column>
+                <_attribute>Declaration of Intention Court</_attribute>
+            </column>
+            <column>
+                <_attribute>Previous Petition No.</_attribute>
+            </column>
+            <column>
+                <_attribute>Previous Petition Court</_attribute>
+            </column>
+            <column>
+                <_attribute>Certificate of Arrival No.</_attribute>
+            </column>
+            <column>
+                <_attribute>Alien Registration No.</_attribute>
+            </column>
+        </section>
+        <section role='Spouse' type='person' title='Spouse'>
+            <column>
+                <_attribute>Name</_attribute>
+            </column>
+            <column>
+                <_attribute>Date of Birth</_attribute>
+            </column>
+            <column>
+                <_attribute>Birthplace</_attribute>
+            </column>
+            <column>
+                <_attribute>Marriage Date</_attribute>
+            </column>
+            <column>
+                <_attribute>Marriage Place</_attribute>
+            </column>
+            <column>
+                <_attribute>US Entry Date</_attribute>
+            </column>
+            <column>
+                <_attribute>US Entry Place</_attribute>
+            </column>
+            <column>
+                <_attribute>US Entry Name</_attribute>
+                <_longname>Name as recorded on spouse's arrival record</_longname>
+            </column>
+            <column>
+                <_attribute>Residence</_attribute>
+            </column>
+            <column>
+                <_attribute>Naturalization Date</_attribute>
+            </column>
+            <column>
+                <_attribute>Naturalization Place</_attribute>
+            </column>
+            <column>
+                <_attribute>Naturalization Certificate No.</_attribute>
+            </column>
+        </section>
+        <section role='Child' type='multi' title='Children'>
+            <column>
+                <_attribute>Name</_attribute>
+            </column>
+            <column>
+                <_attribute>Sex</_attribute>
+            </column>
+            <column>
+                <_attribute>Date of Birth</_attribute>
+            </column>
+            <column>
+                <_attribute>Birthplace</_attribute>
+            </column>
+            <column>
+                <_attribute>Residence</_attribute>
+            </column>
+        </section>
+        <section role='Witness' type='multi' title='Witnesses'>
+            <column>
+                <_attribute>Name</_attribute>
+            </column>
+            <column>
+                <_attribute>Occupation</_attribute>
+            </column>
+            <column>
+                <_attribute>Address</_attribute>
+            </column>
+        </section>
+    </form>
+</forms>

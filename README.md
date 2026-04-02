@@ -8,6 +8,7 @@ This repository contains various forms that I have created for the Gramps Forms 
 * IE1926 (1926 Irish Free State Census, being released on 2026-04-18)
 * USDclInt (US Declaration of Intention, also known as "first papers")
 * USPetNat (US Petition for Naturalization)
+* USPasMnf (US Passenger Manifest)
 
 ## How To Install
 1. Download the test.xml file in this repository.

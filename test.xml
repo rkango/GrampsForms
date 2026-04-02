@@ -753,4 +753,161 @@
             </column>
         </section>
     </form>
+    <form id='USPasMnf' type='Arrival' title='US Passenger Manifest'>
+        <heading>
+            <_attribute>List No.</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Vessel</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Port of Departure</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Date of Departure</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Port of Arrival</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Date of Arrival</_attribute>
+        </heading>
+        <section role='Primary' type='person' title='Passenger'>
+            <column>
+                <_attribute>Name</_attribute>
+            </column>
+            <column>
+                <_attribute>Age (Years)</_attribute>
+            </column>
+            <column>
+                <_attribute>Age (Months)</_attribute>
+            </column>
+            <column>
+                <_attribute>Sex</_attribute>
+            </column>
+            <column>
+                <_attribute>Marital Status</_attribute>
+            </column>
+            <column>
+                <_attribute>Occupation</_attribute>
+            </column>
+            <column>
+                <_attribute>Able to Read</_attribute>
+            </column>
+            <column>
+                <_attribute>Language Read</_attribute>
+            </column>
+            <column>
+                <_attribute>Able to Write</_attribute>
+            </column>
+            <column>
+                <_attribute>Nationality</_attribute>
+                <_longname>Country of which citizen or subject</_longname>
+            </column>
+            <column>
+                <_attribute>Race or People</_attribute>
+            </column>
+            <column>
+                <_attribute>Last Permanent Residence (Country)</_attribute>
+            </column>
+            <column>
+                <_attribute>Last Permanent Residence (City or Town)</_attribute>
+            </column>
+            <column>
+                <_attribute>Place of Birth (Country)</_attribute>
+            </column>
+            <column>
+                <_attribute>Place of Birth (City or Town)</_attribute>
+            </column>
+            <column>
+                <_attribute>Final Destination (State)</_attribute>
+            </column>
+            <column>
+                <_attribute>Final Destination (City or Town)</_attribute>
+            </column>
+            <column>
+                <_attribute>Purpose of Coming</_attribute>
+            </column>
+            <column>
+                <_attribute>Whether Previously in US</_attribute>
+            </column>
+            <column>
+                <_attribute>Previous US Visit (When)</_attribute>
+            </column>
+            <column>
+                <_attribute>Previous US Visit (Where)</_attribute>
+            </column>
+            <column>
+                <_attribute>Whether a Polygamist</_attribute>
+            </column>
+            <column>
+                <_attribute>Whether an Anarchist</_attribute>
+            </column>
+            <column>
+                <_attribute>Whether a Disbeliever in Organized Government</_attribute>
+            </column>
+            <column>
+                <_attribute>Whether Convicted of a Felony</_attribute>
+            </column>
+            <column>
+                <_attribute>Whether Coming Under Promise of Employment</_attribute>
+            </column>
+            <column>
+                <_attribute>Whether Deformed or Crippled</_attribute>
+                <_longname>Nature, length of time, and cause</_longname>
+            </column>
+            <column>
+                <_attribute>Condition of Health</_attribute>
+            </column>
+            <column>
+                <_attribute>Height</_attribute>
+            </column>
+            <column>
+                <_attribute>Complexion</_attribute>
+            </column>
+            <column>
+                <_attribute>Hair</_attribute>
+            </column>
+            <column>
+                <_attribute>Eyes</_attribute>
+            </column>
+            <column>
+                <_attribute>Marks of Identification</_attribute>
+            </column>
+            <column>
+                <_attribute>Head Tax Status</_attribute>
+            </column>
+            <column>
+                <_attribute>Immigration Visa/Passport No.</_attribute>
+            </column>
+            <column>
+                <_attribute>Visa Date</_attribute>
+            </column>
+            <column>
+                <_attribute>Visa Place of Issuance</_attribute>
+            </column>
+        </section>
+        <section role='Foreign Contact' type='person' title='Nearest Relative in Home Country'>
+            <column>
+                <_attribute>Name</_attribute>
+            </column>
+            <column>
+                <_attribute>Relationship</_attribute>
+            </column>
+            <column>
+                <_attribute>Address</_attribute>
+            </column>
+        </section>
+        <section role='US Contact' type='person' title='Going to Join'>
+            <column>
+                <_attribute>Name</_attribute>
+            </column>
+            <column>
+                <_attribute>Relationship</_attribute>
+            </column>
+            <column>
+                <_attribute>Address</_attribute>
+            </column>
+        </section>
+    </form>
 </forms>

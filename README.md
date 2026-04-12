@@ -3,9 +3,15 @@
 This repository contains various forms that I have created for the Gramps Forms plugin.
 
 ## Current Forms Covered
+* IE1926 (1926 Irish Free State Census, being released on 2026-04-18)
+* IEBirth (Irish Birth civil records)
+* IEDeath (Irish Death civil records)
+* IEMarriage (Irish Marriage civil records)
 * SC1911 (1911 Scottish Census)
 * SC1921 (1921 Scottish Census)
-* IE1926 (1926 Irish Free State Census, being released on 2026-04-18)
+* SCBirth (Scottish Birth register)
+* SCDeath (Scottish Death register)
+* SCMarriage (Scottish Marriage register)
 * USDclInt (US Declaration of Intention, also known as "first papers")
 * USPetNat (US Petition for Naturalization)
 * USPasMnf (US Passenger Manifest)

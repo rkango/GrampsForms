@@ -404,341 +404,893 @@
 			</column>
 		</section>
 	</form>
-    <form id='USDclInt' type='Declaration' title='US Declaration of Intention'>
+	<form id='USDclInt' type='Declaration' title='US Declaration of Intention'>
+		<heading>
+			<_attribute>Document No.</_attribute>
+		</heading>
+		<heading>
+			<_attribute>State</_attribute>
+		</heading>
+		<heading>
+			<_attribute>District or County</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Court</_attribute>
+		</heading>
+		<section role='Primary' type='person' title='Declarant'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Other Names Used</_attribute>
+			</column>
+			<column>
+				<_attribute>Age</_attribute>
+			</column>
+			<column>
+				<_attribute>Occupation</_attribute>
+			</column>
+			<column>
+				<_attribute>Sex</_attribute>
+			</column>
+			<column>
+				<_attribute>Color</_attribute>
+			</column>
+			<column>
+				<_attribute>Complexion</_attribute>
+			</column>
+			<column>
+				<_attribute>Height</_attribute>
+			</column>
+			<column>
+				<_attribute>Weight</_attribute>
+			</column>
+			<column>
+				<_attribute>Hair</_attribute>
+			</column>
+			<column>
+				<_attribute>Eyes</_attribute>
+			</column>
+			<column>
+				<_attribute>Distinctive Marks</_attribute>
+			</column>
+			<column>
+				<_attribute>Race</_attribute>
+			</column>
+			<column>
+				<_attribute>Nationality</_attribute>
+			</column>
+			<column>
+				<_attribute>Date of Birth</_attribute>
+			</column>
+			<column>
+				<_attribute>Birthplace</_attribute>
+			</column>
+			<column>
+				<_attribute>Address</_attribute>
+			</column>
+			<column>
+				<_attribute>Last Foreign Residence</_attribute>
+			</column>
+			<column>
+				<_attribute>Port of Emigration</_attribute>
+			</column>
+			<column>
+				<_attribute>Vessel</_attribute>
+			</column>
+			<column>
+				<_attribute>Port of Arrival</_attribute>
+			</column>
+			<column>
+				<_attribute>State of Arrival</_attribute>
+			</column>
+			<column>
+				<_attribute>Date of Arrival</_attribute>
+			</column>
+			<column>
+				<_attribute>Entry Name</_attribute>
+				<_longname>Name as recorded on arrival record</_longname>
+			</column>
+			<column>
+				<_attribute>Marital Status</_attribute>
+			</column>
+			<column>
+				<_attribute>Number of Children</_attribute>
+			</column>
+			<column>
+				<_attribute>Allegiance Renounced</_attribute>
+				<_longname>Sovereign, state, or sovereignty renounced</_longname>
+			</column>
+			<column>
+				<_attribute>Previous Declaration No.</_attribute>
+			</column>
+			<column>
+				<_attribute>Previous Declaration Date</_attribute>
+			</column>
+			<column>
+				<_attribute>Previous Declaration Court</_attribute>
+			</column>
+			<column>
+				<_attribute>Certification No.</_attribute>
+				<_longname>Certificate of Arrival certification number</_longname>
+			</column>
+		</section>
+		<section role='Spouse' type='person' title='Spouse'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Date of Birth</_attribute>
+			</column>
+			<column>
+				<_attribute>Birthplace</_attribute>
+			</column>
+			<column>
+				<_attribute>Marriage Date</_attribute>
+			</column>
+			<column>
+				<_attribute>Marriage Place</_attribute>
+			</column>
+			<column>
+				<_attribute>US Entry Date</_attribute>
+			</column>
+			<column>
+				<_attribute>US Entry Place</_attribute>
+			</column>
+			<column>
+				<_attribute>Residence</_attribute>
+			</column>
+		</section>
+		<section role='Child' type='multi' title='Children'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Date of Birth</_attribute>
+			</column>
+			<column>
+				<_attribute>Birthplace</_attribute>
+			</column>
+			<column>
+				<_attribute>Residence</_attribute>
+			</column>
+		</section>
+	</form>
+	<form id='USPetNat' type='Petition' title='US Petition for Naturalization'>
+		<heading>
+			<_attribute>Document No.</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Filed Under</_attribute>
+			<_longname>Section of law under which petition is filed</_longname>
+		</heading>
+		<heading>
+			<_attribute>Court</_attribute>
+		</heading>
+		<heading>
+			<_attribute>District</_attribute>
+		</heading>
+		<heading>
+			<_attribute>State or County</_attribute>
+		</heading>
+		<section role='Primary' type='person' title='Petitioner'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Former Name</_attribute>
+				<_longname>Any other name by which petitioner is or has been known</_longname>
+			</column>
+			<column>
+				<_attribute>Age</_attribute>
+			</column>
+			<column>
+				<_attribute>Date of Birth</_attribute>
+			</column>
+			<column>
+				<_attribute>Birthplace</_attribute>
+			</column>
+			<column>
+				<_attribute>Race</_attribute>
+			</column>
+			<column>
+				<_attribute>Nationality</_attribute>
+			</column>
+			<column>
+				<_attribute>Occupation</_attribute>
+			</column>
+			<column>
+				<_attribute>Address</_attribute>
+			</column>
+			<column>
+				<_attribute>Sex</_attribute>
+			</column>
+			<column>
+				<_attribute>Complexion</_attribute>
+			</column>
+			<column>
+				<_attribute>Color of Eyes</_attribute>
+			</column>
+			<column>
+				<_attribute>Color of Hair</_attribute>
+			</column>
+			<column>
+				<_attribute>Height</_attribute>
+			</column>
+			<column>
+				<_attribute>Weight</_attribute>
+			</column>
+			<column>
+				<_attribute>Distinctive Marks</_attribute>
+			</column>
+			<column>
+				<_attribute>Marital Status</_attribute>
+			</column>
+			<column>
+				<_attribute>Number of Children</_attribute>
+			</column>
+			<column>
+				<_attribute>Last Foreign Residence</_attribute>
+			</column>
+			<column>
+				<_attribute>Port of Emigration</_attribute>
+			</column>
+			<column>
+				<_attribute>Entry Name</_attribute>
+				<_longname>Name as recorded on arrival record</_longname>
+			</column>
+			<column>
+				<_attribute>Entry Place</_attribute>
+			</column>
+			<column>
+				<_attribute>Entry Date</_attribute>
+			</column>
+			<column>
+				<_attribute>Vessel</_attribute>
+			</column>
+			<column>
+				<_attribute>Continuous Residence Since</_attribute>
+				<_longname>Date of continuous residence in the United States</_longname>
+			</column>
+			<column>
+				<_attribute>County of Residence</_attribute>
+			</column>
+			<column>
+				<_attribute>Allegiance Renounced</_attribute>
+				<_longname>Sovereign, state, or sovereignty renounced</_longname>
+			</column>
+			<column>
+				<_attribute>Travel Absences</_attribute>
+				<_longname>Absences from the United States of 6 months or longer. Record as: Port, Date, Vessel (departure) / Port, Date, Vessel (return).</_longname>
+			</column>
+			<column>
+				<_attribute>Declaration of Intention No.</_attribute>
+			</column>
+			<column>
+				<_attribute>Declaration of Intention Date</_attribute>
+			</column>
+			<column>
+				<_attribute>Declaration of Intention Court</_attribute>
+			</column>
+			<column>
+				<_attribute>Previous Petition No.</_attribute>
+			</column>
+			<column>
+				<_attribute>Previous Petition Court</_attribute>
+			</column>
+			<column>
+				<_attribute>Certificate of Arrival No.</_attribute>
+			</column>
+			<column>
+				<_attribute>Alien Registration No.</_attribute>
+			</column>
+		</section>
+		<section role='Spouse' type='person' title='Spouse'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Date of Birth</_attribute>
+			</column>
+			<column>
+				<_attribute>Birthplace</_attribute>
+			</column>
+			<column>
+				<_attribute>Marriage Date</_attribute>
+			</column>
+			<column>
+				<_attribute>Marriage Place</_attribute>
+			</column>
+			<column>
+				<_attribute>US Entry Date</_attribute>
+			</column>
+			<column>
+				<_attribute>US Entry Place</_attribute>
+			</column>
+			<column>
+				<_attribute>US Entry Name</_attribute>
+				<_longname>Name as recorded on spouse's arrival record</_longname>
+			</column>
+			<column>
+				<_attribute>Residence</_attribute>
+			</column>
+			<column>
+				<_attribute>Naturalization Date</_attribute>
+			</column>
+			<column>
+				<_attribute>Naturalization Place</_attribute>
+			</column>
+			<column>
+				<_attribute>Naturalization Certificate No.</_attribute>
+			</column>
+		</section>
+		<section role='Child' type='multi' title='Children'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Sex</_attribute>
+			</column>
+			<column>
+				<_attribute>Date of Birth</_attribute>
+			</column>
+			<column>
+				<_attribute>Birthplace</_attribute>
+			</column>
+			<column>
+				<_attribute>Residence</_attribute>
+			</column>
+		</section>
+		<section role='Witness' type='multi' title='Witnesses'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Occupation</_attribute>
+			</column>
+			<column>
+				<_attribute>Address</_attribute>
+			</column>
+		</section>
+	</form>
+	<form id='USPasMnf' type='Arrival' title='US Passenger Manifest'>
+		<heading>
+			<_attribute>List No.</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Vessel</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Port of Departure</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Date of Departure</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Port of Arrival</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Date of Arrival</_attribute>
+		</heading>
+		<section role='Primary' type='person' title='Passenger'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Age (Years)</_attribute>
+			</column>
+			<column>
+				<_attribute>Age (Months)</_attribute>
+			</column>
+			<column>
+				<_attribute>Sex</_attribute>
+			</column>
+			<column>
+				<_attribute>Marital Status</_attribute>
+			</column>
+			<column>
+				<_attribute>Occupation</_attribute>
+			</column>
+			<column>
+				<_attribute>Able to Read</_attribute>
+			</column>
+			<column>
+				<_attribute>Language Read</_attribute>
+			</column>
+			<column>
+				<_attribute>Able to Write</_attribute>
+			</column>
+			<column>
+				<_attribute>Nationality</_attribute>
+				<_longname>Country of which citizen or subject</_longname>
+			</column>
+			<column>
+				<_attribute>Race or People</_attribute>
+			</column>
+			<column>
+				<_attribute>Last Permanent Residence (Country)</_attribute>
+			</column>
+			<column>
+				<_attribute>Last Permanent Residence (City or Town)</_attribute>
+			</column>
+			<column>
+				<_attribute>Place of Birth (Country)</_attribute>
+			</column>
+			<column>
+				<_attribute>Place of Birth (City or Town)</_attribute>
+			</column>
+			<column>
+				<_attribute>Final Destination (State)</_attribute>
+			</column>
+			<column>
+				<_attribute>Final Destination (City or Town)</_attribute>
+			</column>
+			<column>
+				<_attribute>Purpose of Coming</_attribute>
+			</column>
+			<column>
+				<_attribute>Whether Previously in US</_attribute>
+			</column>
+			<column>
+				<_attribute>Previous US Visit (When)</_attribute>
+			</column>
+			<column>
+				<_attribute>Previous US Visit (Where)</_attribute>
+			</column>
+			<column>
+				<_attribute>Whether a Polygamist</_attribute>
+			</column>
+			<column>
+				<_attribute>Whether an Anarchist</_attribute>
+			</column>
+			<column>
+				<_attribute>Whether a Disbeliever in Organized Government</_attribute>
+			</column>
+			<column>
+				<_attribute>Whether Convicted of a Felony</_attribute>
+			</column>
+			<column>
+				<_attribute>Whether Coming Under Promise of Employment</_attribute>
+			</column>
+			<column>
+				<_attribute>Whether Deformed or Crippled</_attribute>
+				<_longname>Nature, length of time, and cause</_longname>
+			</column>
+			<column>
+				<_attribute>Condition of Health</_attribute>
+			</column>
+			<column>
+				<_attribute>Height</_attribute>
+			</column>
+			<column>
+				<_attribute>Complexion</_attribute>
+			</column>
+			<column>
+				<_attribute>Hair</_attribute>
+			</column>
+			<column>
+				<_attribute>Eyes</_attribute>
+			</column>
+			<column>
+				<_attribute>Marks of Identification</_attribute>
+			</column>
+			<column>
+				<_attribute>Head Tax Status</_attribute>
+			</column>
+			<column>
+				<_attribute>Immigration Visa/Passport No.</_attribute>
+			</column>
+			<column>
+				<_attribute>Visa Date</_attribute>
+			</column>
+			<column>
+				<_attribute>Visa Place of Issuance</_attribute>
+			</column>
+		</section>
+		<section role='Foreign Contact' type='person' title='Nearest Relative in Home Country'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Relationship</_attribute>
+			</column>
+			<column>
+				<_attribute>Address</_attribute>
+			</column>
+		</section>
+		<section role='US Contact' type='person' title='Going to Join'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Relationship</_attribute>
+			</column>
+			<column>
+				<_attribute>Address</_attribute>
+			</column>
+		</section>
+	</form>
+	<form id='SCBirth' type='Birth' title='Scottish Birth Register'>
+		<heading>
+			<_attribute>No.</_attribute>
+		</heading>
+		<heading>
+			<_attribute>District</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Administrative Area</_attribute>
+			<_longname>County or Burgh</_longname>
+		</heading>
+		<section role='Primary' type='person' title='Child'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>When Born</_attribute>
+			</column>
+			<column>
+				<_attribute>Where Born</_attribute>
+			</column>
+			<column>
+				<_attribute>Sex</_attribute>
+			</column>
+		</section>
+		<section role='Father' type='person' title='Father'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Occupation</_attribute>
+			</column>
+			<column>
+				<_attribute>Marriage Date</_attribute>
+			</column>
+			<column>
+				<_attribute>Marriage Place</_attribute>
+			</column>
+		</section>
+		<section role='Mother' type='person' title='Mother'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Maiden Surname</_attribute>
+			</column>
+			<column>
+				<_attribute>Marriage Date</_attribute>
+			</column>
+			<column>
+				<_attribute>Marriage Place</_attribute>
+			</column>
+		</section>
+		<section role='Informant' type='person' title='Informant'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Qualification</_attribute>
+				<_longname>Relationship to child and whether present at birth</_longname>
+			</column>
+			<column>
+				<_attribute>Residence</_attribute>
+				<_longname>If out of the house in which the birth occurred</_longname>
+			</column>
+			<column>
+				<_attribute>Date Registered</_attribute>
+			</column>
+			<column>
+				<_attribute>Place Registered</_attribute>
+			</column>
+		</section>
+	</form>
+	<form id='SCMarriage' type='Marriage' title='Scottish Marriage Register'>
+		<heading>
+			<_attribute>No.</_attribute>
+		</heading>
+		<heading>
+			<_attribute>District</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Administrative Area</_attribute>
+			<_longname>County or Burgh</_longname>
+		</heading>
+		<heading>
+			<_attribute>When Married</_attribute>
+		</heading>
+		<heading>
+				<_attribute>Where Married</_attribute>
+		</heading>
+		<heading>
+			<_attribute>How Married</_attribute>
+			<_longname>e.g. After Banns according to the forms of the Church of Scotland</_longname>
+		</heading>
+		<heading>
+			<_attribute>Date Registered</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Place Registered</_attribute>
+		</heading>
+		<section role='Family' type='family' title='Groom/Bride'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Occupation</_attribute>
+			</column>
+			<column>
+				<_attribute>Condition</_attribute>
+				<_longname>Whether Single, Married, or Widowed</_longname>
+			</column>
+			<column>
+				<_attribute>Relationship</_attribute>
+				<_longname>Relationship to other party, if any</_longname>
+			</column>
+			<column>
+				<_attribute>Age</_attribute>
+			</column>
+			<column>
+				<_attribute>Usual Residence</_attribute>
+			</column>
+		</section>
+		<section role='Groom Father' type='person' title='Groom&apos;s Father'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Occupation</_attribute>
+			</column>
+			<column>
+				<_attribute>Deceased</_attribute>
+			</column>
+		</section>
+		<section role='Groom Mother' type='person' title='Groom&apos;s Mother'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Maiden Surname</_attribute>
+			</column>
+			<column>
+				<_attribute>Deceased</_attribute>
+			</column>
+		</section>
+		<section role='Bride Father' type='person' title='Bride&apos;s Father'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Occupation</_attribute>
+			</column>
+			<column>
+				<_attribute>Deceased</_attribute>
+			</column>
+		</section>
+		<section role='Bride Mother' type='person' title='Bride&apos;s Mother'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Maiden Surname</_attribute>
+			</column>
+			<column>
+				<_attribute>Deceased</_attribute>
+			</column>
+		</section>
+		<section role='Witness' type='multi' title='Witnesses'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Role</_attribute>
+			</column>
+		</section>
+	</form>
+	<form id='SCDeath' type='Death' title='Scottish Death Register'>
+		<heading>
+			<_attribute>No.</_attribute>
+		</heading>
+		<heading>
+			<_attribute>District</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Administrative Area</_attribute>
+			<_longname>County or Burgh</_longname>
+		</heading>
+		<section role='Primary' type='person' title='Deceased'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Occupation</_attribute>
+			</column>
+			<column>
+				<_attribute>Marital Status</_attribute>
+				<_longname>Whether Single, Married, or Widowed; and name of spouse if married or widowed</_longname>
+			</column>
+			<column>
+				<_attribute>When Died</_attribute>
+			</column>
+			<column>
+				<_attribute>Where Died</_attribute>
+			</column>
+			<column>
+				<_attribute>Sex</_attribute>
+			</column>
+			<column>
+				<_attribute>Age</_attribute>
+			</column>
+			<column>
+				<_attribute>Cause of Death</_attribute>
+			</column>
+			<column>
+				<_attribute>Duration of Disease</_attribute>
+			</column>
+			<column>
+				<_attribute>Medical Attendant</_attribute>
+				<_longname>Medical attendant by whom certified</_longname>
+			</column>
+		</section>
+		<section role='Spouse' type='person' title='Spouse'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+		</section>
+		<section role='Father' type='person' title='Father'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Occupation</_attribute>
+			</column>
+			<column>
+				<_attribute>Deceased</_attribute>
+			</column>
+		</section>
+		<section role='Mother' type='person' title='Mother'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Maiden Surname</_attribute>
+			</column>
+			<column>
+				<_attribute>Deceased</_attribute>
+			</column>
+		</section>
+		<section role='Informant' type='person' title='Informant'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Qualification</_attribute>
+				<_longname>Relationship to deceased and whether present at death</_longname>
+			</column>
+			<column>
+				<_attribute>Residence</_attribute>
+				<_longname>If out of the house in which the death occurred</_longname>
+			</column>
+			<column>
+				<_attribute>Date Registered</_attribute>
+			</column>
+			<column>
+				<_attribute>Place Registered</_attribute>
+			</column>
+		</section>
+	</form>
+    <form id='IEBirth' type='Birth' title='Irish Birth Register'>
         <heading>
-            <_attribute>Document No.</_attribute>
+            <_attribute>Superintendent Registrar&apos;s District</_attribute>
         </heading>
         <heading>
-            <_attribute>State</_attribute>
+            <_attribute>Registrar&apos;s District</_attribute>
         </heading>
         <heading>
-            <_attribute>District or County</_attribute>
+            <_attribute>Union</_attribute>
         </heading>
         <heading>
-            <_attribute>Court</_attribute>
+            <_attribute>County</_attribute>
         </heading>
-        <section role='Primary' type='person' title='Declarant'>
+        <section role='Primary' type='person' title='Child'>
             <column>
                 <_attribute>Name</_attribute>
             </column>
             <column>
-                <_attribute>Other Names Used</_attribute>
+                <_attribute>Date of Birth</_attribute>
             </column>
             <column>
-                <_attribute>Age</_attribute>
-            </column>
-            <column>
-                <_attribute>Occupation</_attribute>
+                <_attribute>Place of Birth</_attribute>
             </column>
             <column>
                 <_attribute>Sex</_attribute>
             </column>
             <column>
-                <_attribute>Color</_attribute>
-            </column>
-            <column>
-                <_attribute>Complexion</_attribute>
-            </column>
-            <column>
-                <_attribute>Height</_attribute>
-            </column>
-            <column>
-                <_attribute>Weight</_attribute>
-            </column>
-            <column>
-                <_attribute>Hair</_attribute>
-            </column>
-            <column>
-                <_attribute>Eyes</_attribute>
-            </column>
-            <column>
-                <_attribute>Distinctive Marks</_attribute>
-            </column>
-            <column>
-                <_attribute>Race</_attribute>
-            </column>
-            <column>
-                <_attribute>Nationality</_attribute>
-            </column>
-            <column>
-                <_attribute>Date of Birth</_attribute>
-            </column>
-            <column>
-                <_attribute>Birthplace</_attribute>
-            </column>
-            <column>
-                <_attribute>Address</_attribute>
-            </column>
-            <column>
-                <_attribute>Last Foreign Residence</_attribute>
-            </column>
-            <column>
-                <_attribute>Port of Emigration</_attribute>
-            </column>
-            <column>
-                <_attribute>Vessel</_attribute>
-            </column>
-            <column>
-                <_attribute>Port of Arrival</_attribute>
-            </column>
-            <column>
-                <_attribute>State of Arrival</_attribute>
-            </column>
-            <column>
-                <_attribute>Date of Arrival</_attribute>
-            </column>
-            <column>
-                <_attribute>Entry Name</_attribute>
-                <_longname>Name as recorded on arrival record</_longname>
-            </column>
-            <column>
-                <_attribute>Marital Status</_attribute>
-            </column>
-            <column>
-                <_attribute>Number of Children</_attribute>
-            </column>
-            <column>
-                <_attribute>Allegiance Renounced</_attribute>
-                <_longname>Sovereign, state, or sovereignty renounced</_longname>
-            </column>
-            <column>
-                <_attribute>Previous Declaration No.</_attribute>
-            </column>
-            <column>
-                <_attribute>Previous Declaration Date</_attribute>
-            </column>
-            <column>
-                <_attribute>Previous Declaration Court</_attribute>
-            </column>
-            <column>
-                <_attribute>Certification No.</_attribute>
-                <_longname>Certificate of Arrival certification number</_longname>
+                <_attribute>Baptismal Name</_attribute>
+                <_longname>Name added after registration of birth, and date of baptism</_longname>
             </column>
         </section>
-        <section role='Spouse' type='person' title='Spouse'>
+        <section role='Father' type='person' title='Father'>
             <column>
                 <_attribute>Name</_attribute>
             </column>
             <column>
-                <_attribute>Date of Birth</_attribute>
+                <_attribute>Dwelling Place</_attribute>
             </column>
             <column>
-                <_attribute>Birthplace</_attribute>
-            </column>
-            <column>
-                <_attribute>Marriage Date</_attribute>
-            </column>
-            <column>
-                <_attribute>Marriage Place</_attribute>
-            </column>
-            <column>
-                <_attribute>US Entry Date</_attribute>
-            </column>
-            <column>
-                <_attribute>US Entry Place</_attribute>
-            </column>
-            <column>
-                <_attribute>Residence</_attribute>
+                <_attribute>Rank or Profession</_attribute>
             </column>
         </section>
-        <section role='Child' type='multi' title='Children'>
+        <section role='Mother' type='person' title='Mother'>
             <column>
                 <_attribute>Name</_attribute>
             </column>
             <column>
-                <_attribute>Date of Birth</_attribute>
+                <_attribute>Maiden Surname</_attribute>
+            </column>
+        </section>
+        <section role='Informant' type='person' title='Informant'>
+            <column>
+                <_attribute>Name</_attribute>
             </column>
             <column>
-                <_attribute>Birthplace</_attribute>
+                <_attribute>Qualification</_attribute>
+                <_longname>Relationship to child and whether present at birth</_longname>
             </column>
             <column>
                 <_attribute>Residence</_attribute>
+                <_longname>If out of the house in which the birth occurred</_longname>
+            </column>
+            <column>
+                <_attribute>When Registered</_attribute>
             </column>
         </section>
     </form>
-    <form id='USPetNat' type='Petition' title='US Petition for Naturalization'>
+    <form id='IEMarriage' type='Marriage' title='Irish Marriage Register'>
         <heading>
-            <_attribute>Document No.</_attribute>
+            <_attribute>Superintendent Registrar&apos;s District</_attribute>
+        </heading>
+		<heading>
+            <_attribute>When Married</_attribute>
         </heading>
         <heading>
-            <_attribute>Filed Under</_attribute>
-            <_longname>Section of law under which petition is filed</_longname>
+            <_attribute>Where Married</_attribute>
+            <_longname>Name of church or chapel</_longname>
         </heading>
         <heading>
-            <_attribute>Court</_attribute>
+            <_attribute>How Married</_attribute>
+            <_longname>e.g. According to the Rites and Ceremonies of the Roman Catholic Church</_longname>
         </heading>
-        <heading>
-            <_attribute>District</_attribute>
-        </heading>
-        <heading>
-            <_attribute>State or County</_attribute>
-        </heading>
-        <section role='Primary' type='person' title='Petitioner'>
+        <section role='Family' type='family' title='Groom/Bride'>
             <column>
                 <_attribute>Name</_attribute>
-            </column>
-            <column>
-                <_attribute>Former Name</_attribute>
-                <_longname>Any other name by which petitioner is or has been known</_longname>
             </column>
             <column>
                 <_attribute>Age</_attribute>
             </column>
             <column>
-                <_attribute>Date of Birth</_attribute>
+                <_attribute>Condition</_attribute>
+                <_longname>Whether Bachelor, Spinster, Widower, or Widow</_longname>
             </column>
             <column>
-                <_attribute>Birthplace</_attribute>
+                <_attribute>Rank or Profession</_attribute>
             </column>
             <column>
-                <_attribute>Race</_attribute>
-            </column>
-            <column>
-                <_attribute>Nationality</_attribute>
-            </column>
-            <column>
-                <_attribute>Occupation</_attribute>
-            </column>
-            <column>
-                <_attribute>Address</_attribute>
-            </column>
-            <column>
-                <_attribute>Sex</_attribute>
-            </column>
-            <column>
-                <_attribute>Complexion</_attribute>
-            </column>
-            <column>
-                <_attribute>Color of Eyes</_attribute>
-            </column>
-            <column>
-                <_attribute>Color of Hair</_attribute>
-            </column>
-            <column>
-                <_attribute>Height</_attribute>
-            </column>
-            <column>
-                <_attribute>Weight</_attribute>
-            </column>
-            <column>
-                <_attribute>Distinctive Marks</_attribute>
-            </column>
-            <column>
-                <_attribute>Marital Status</_attribute>
-            </column>
-            <column>
-                <_attribute>Number of Children</_attribute>
-            </column>
-            <column>
-                <_attribute>Last Foreign Residence</_attribute>
-            </column>
-            <column>
-                <_attribute>Port of Emigration</_attribute>
-            </column>
-            <column>
-                <_attribute>Entry Name</_attribute>
-                <_longname>Name as recorded on arrival record</_longname>
-            </column>
-            <column>
-                <_attribute>Entry Place</_attribute>
-            </column>
-            <column>
-                <_attribute>Entry Date</_attribute>
-            </column>
-            <column>
-                <_attribute>Vessel</_attribute>
-            </column>
-            <column>
-                <_attribute>Continuous Residence Since</_attribute>
-                <_longname>Date of continuous residence in the United States</_longname>
-            </column>
-            <column>
-                <_attribute>County of Residence</_attribute>
-            </column>
-            <column>
-                <_attribute>Allegiance Renounced</_attribute>
-                <_longname>Sovereign, state, or sovereignty renounced</_longname>
-            </column>
-            <column>
-                <_attribute>Travel Absences</_attribute>
-                <_longname>Absences from the United States of 6 months or longer. Record as: Port, Date, Vessel (departure) / Port, Date, Vessel (return).</_longname>
-            </column>
-            <column>
-                <_attribute>Declaration of Intention No.</_attribute>
-            </column>
-            <column>
-                <_attribute>Declaration of Intention Date</_attribute>
-            </column>
-            <column>
-                <_attribute>Declaration of Intention Court</_attribute>
-            </column>
-            <column>
-                <_attribute>Previous Petition No.</_attribute>
-            </column>
-            <column>
-                <_attribute>Previous Petition Court</_attribute>
-            </column>
-            <column>
-                <_attribute>Certificate of Arrival No.</_attribute>
-            </column>
-            <column>
-                <_attribute>Alien Registration No.</_attribute>
+                <_attribute>Residence at Time of Marriage</_attribute>
             </column>
         </section>
-        <section role='Spouse' type='person' title='Spouse'>
+        <section role='Groom Father' type='person' title='Groom&apos;s Father'>
             <column>
                 <_attribute>Name</_attribute>
             </column>
             <column>
-                <_attribute>Date of Birth</_attribute>
-            </column>
-            <column>
-                <_attribute>Birthplace</_attribute>
-            </column>
-            <column>
-                <_attribute>Marriage Date</_attribute>
-            </column>
-            <column>
-                <_attribute>Marriage Place</_attribute>
-            </column>
-            <column>
-                <_attribute>US Entry Date</_attribute>
-            </column>
-            <column>
-                <_attribute>US Entry Place</_attribute>
-            </column>
-            <column>
-                <_attribute>US Entry Name</_attribute>
-                <_longname>Name as recorded on spouse's arrival record</_longname>
-            </column>
-            <column>
-                <_attribute>Residence</_attribute>
-            </column>
-            <column>
-                <_attribute>Naturalization Date</_attribute>
-            </column>
-            <column>
-                <_attribute>Naturalization Place</_attribute>
-            </column>
-            <column>
-                <_attribute>Naturalization Certificate No.</_attribute>
+                <_attribute>Rank or Profession</_attribute>
             </column>
         </section>
-        <section role='Child' type='multi' title='Children'>
+        <section role='Bride Father' type='person' title='Bride&apos;s Father'>
             <column>
                 <_attribute>Name</_attribute>
             </column>
             <column>
-                <_attribute>Sex</_attribute>
-            </column>
-            <column>
-                <_attribute>Date of Birth</_attribute>
-            </column>
-            <column>
-                <_attribute>Birthplace</_attribute>
-            </column>
-            <column>
-                <_attribute>Residence</_attribute>
+                <_attribute>Rank or Profession</_attribute>
             </column>
         </section>
         <section role='Witness' type='multi' title='Witnesses'>
@@ -746,167 +1298,72 @@
                 <_attribute>Name</_attribute>
             </column>
             <column>
-                <_attribute>Occupation</_attribute>
-            </column>
-            <column>
-                <_attribute>Address</_attribute>
+                <_attribute>Role</_attribute>
+                <_longname>e.g. Witness, Officiating Priest, Officiating Minister</_longname>
             </column>
         </section>
     </form>
-    <form id='USPasMnf' type='Arrival' title='US Passenger Manifest'>
+    <form id='IEDeath' type='Death' title='Irish Death Register'>
         <heading>
-            <_attribute>List No.</_attribute>
+            <_attribute>Superintendent Registrar&apos;s District</_attribute>
         </heading>
         <heading>
-            <_attribute>Vessel</_attribute>
+            <_attribute>Registrar&apos;s District</_attribute>
         </heading>
         <heading>
-            <_attribute>Port of Departure</_attribute>
+            <_attribute>Union</_attribute>
         </heading>
         <heading>
-            <_attribute>Date of Departure</_attribute>
+            <_attribute>County</_attribute>
         </heading>
-        <heading>
-            <_attribute>Port of Arrival</_attribute>
-        </heading>
-        <heading>
-            <_attribute>Date of Arrival</_attribute>
-        </heading>
-        <section role='Primary' type='person' title='Passenger'>
+        <section role='Primary' type='person' title='Deceased'>
             <column>
                 <_attribute>Name</_attribute>
             </column>
             <column>
-                <_attribute>Age (Years)</_attribute>
+                <_attribute>Date of Death</_attribute>
             </column>
             <column>
-                <_attribute>Age (Months)</_attribute>
+                <_attribute>Place of Death</_attribute>
             </column>
             <column>
                 <_attribute>Sex</_attribute>
             </column>
             <column>
-                <_attribute>Marital Status</_attribute>
+                <_attribute>Condition</_attribute>
+                <_longname>Whether Married, Widowed, or Single</_longname>
             </column>
             <column>
-                <_attribute>Occupation</_attribute>
+                <_attribute>Age last Birthday</_attribute>
             </column>
             <column>
-                <_attribute>Able to Read</_attribute>
+                <_attribute>Rank or Profession</_attribute>
             </column>
             <column>
-                <_attribute>Language Read</_attribute>
+                <_attribute>Cause of Death</_attribute>
             </column>
             <column>
-                <_attribute>Able to Write</_attribute>
+                <_attribute>Duration of Illness</_attribute>
             </column>
             <column>
-                <_attribute>Nationality</_attribute>
-                <_longname>Country of which citizen or subject</_longname>
-            </column>
-            <column>
-                <_attribute>Race or People</_attribute>
-            </column>
-            <column>
-                <_attribute>Last Permanent Residence (Country)</_attribute>
-            </column>
-            <column>
-                <_attribute>Last Permanent Residence (City or Town)</_attribute>
-            </column>
-            <column>
-                <_attribute>Place of Birth (Country)</_attribute>
-            </column>
-            <column>
-                <_attribute>Place of Birth (City or Town)</_attribute>
-            </column>
-            <column>
-                <_attribute>Final Destination (State)</_attribute>
-            </column>
-            <column>
-                <_attribute>Final Destination (City or Town)</_attribute>
-            </column>
-            <column>
-                <_attribute>Purpose of Coming</_attribute>
-            </column>
-            <column>
-                <_attribute>Whether Previously in US</_attribute>
-            </column>
-            <column>
-                <_attribute>Previous US Visit (When)</_attribute>
-            </column>
-            <column>
-                <_attribute>Previous US Visit (Where)</_attribute>
-            </column>
-            <column>
-                <_attribute>Whether a Polygamist</_attribute>
-            </column>
-            <column>
-                <_attribute>Whether an Anarchist</_attribute>
-            </column>
-            <column>
-                <_attribute>Whether a Disbeliever in Organized Government</_attribute>
-            </column>
-            <column>
-                <_attribute>Whether Convicted of a Felony</_attribute>
-            </column>
-            <column>
-                <_attribute>Whether Coming Under Promise of Employment</_attribute>
-            </column>
-            <column>
-                <_attribute>Whether Deformed or Crippled</_attribute>
-                <_longname>Nature, length of time, and cause</_longname>
-            </column>
-            <column>
-                <_attribute>Condition of Health</_attribute>
-            </column>
-            <column>
-                <_attribute>Height</_attribute>
-            </column>
-            <column>
-                <_attribute>Complexion</_attribute>
-            </column>
-            <column>
-                <_attribute>Hair</_attribute>
-            </column>
-            <column>
-                <_attribute>Eyes</_attribute>
-            </column>
-            <column>
-                <_attribute>Marks of Identification</_attribute>
-            </column>
-            <column>
-                <_attribute>Head Tax Status</_attribute>
-            </column>
-            <column>
-                <_attribute>Immigration Visa/Passport No.</_attribute>
-            </column>
-            <column>
-                <_attribute>Visa Date</_attribute>
-            </column>
-            <column>
-                <_attribute>Visa Place of Issuance</_attribute>
+                <_attribute>Medical Attendant</_attribute>
+                <_longname>Medical attendant by whom certified, and when last seen deceased</_longname>
             </column>
         </section>
-        <section role='Foreign Contact' type='person' title='Nearest Relative in Home Country'>
+        <section role='Informant' type='person' title='Informant'>
             <column>
                 <_attribute>Name</_attribute>
             </column>
             <column>
-                <_attribute>Relationship</_attribute>
+                <_attribute>Qualification</_attribute>
+                <_longname>Relationship to deceased and whether present at death</_longname>
             </column>
             <column>
-                <_attribute>Address</_attribute>
-            </column>
-        </section>
-        <section role='US Contact' type='person' title='Going to Join'>
-            <column>
-                <_attribute>Name</_attribute>
+                <_attribute>Residence</_attribute>
+                <_longname>If out of the house in which the death occurred</_longname>
             </column>
             <column>
-                <_attribute>Relationship</_attribute>
-            </column>
-            <column>
-                <_attribute>Address</_attribute>
+                <_attribute>When Registered</_attribute>
             </column>
         </section>
     </form>

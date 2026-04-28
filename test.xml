@@ -998,7 +998,7 @@
 			<_attribute>When Married</_attribute>
 		</heading>
 		<heading>
-				<_attribute>Where Married</_attribute>
+			<_attribute>Where Married</_attribute>
 		</heading>
 		<heading>
 			<_attribute>How Married</_attribute>
@@ -1177,194 +1177,654 @@
 			</column>
 		</section>
 	</form>
-    <form id='IEBirth' type='Birth' title='Irish Birth Register'>
-        <heading>
-            <_attribute>Superintendent Registrar&apos;s District</_attribute>
-        </heading>
-        <heading>
-            <_attribute>Registrar&apos;s District</_attribute>
-        </heading>
-        <heading>
-            <_attribute>Union</_attribute>
-        </heading>
-        <heading>
-            <_attribute>County</_attribute>
-        </heading>
-        <section role='Primary' type='person' title='Child'>
-            <column>
-                <_attribute>Name</_attribute>
-            </column>
-            <column>
-                <_attribute>Date of Birth</_attribute>
-            </column>
-            <column>
-                <_attribute>Place of Birth</_attribute>
-            </column>
-            <column>
-                <_attribute>Sex</_attribute>
-            </column>
-            <column>
-                <_attribute>Baptismal Name</_attribute>
-                <_longname>Name added after registration of birth, and date of baptism</_longname>
-            </column>
-        </section>
-        <section role='Father' type='person' title='Father'>
-            <column>
-                <_attribute>Name</_attribute>
-            </column>
-            <column>
-                <_attribute>Dwelling Place</_attribute>
-            </column>
-            <column>
-                <_attribute>Rank or Profession</_attribute>
-            </column>
-        </section>
-        <section role='Mother' type='person' title='Mother'>
-            <column>
-                <_attribute>Name</_attribute>
-            </column>
-            <column>
-                <_attribute>Maiden Surname</_attribute>
-            </column>
-        </section>
-        <section role='Informant' type='person' title='Informant'>
-            <column>
-                <_attribute>Name</_attribute>
-            </column>
-            <column>
-                <_attribute>Qualification</_attribute>
-                <_longname>Relationship to child and whether present at birth</_longname>
-            </column>
-            <column>
-                <_attribute>Residence</_attribute>
-                <_longname>If out of the house in which the birth occurred</_longname>
-            </column>
-            <column>
-                <_attribute>When Registered</_attribute>
-            </column>
-        </section>
-    </form>
-    <form id='IEMarriage' type='Marriage' title='Irish Marriage Register'>
-        <heading>
-            <_attribute>Superintendent Registrar&apos;s District</_attribute>
-        </heading>
+	<form id='IEBirth' type='Birth' title='Irish Birth Register'>
 		<heading>
-            <_attribute>When Married</_attribute>
-        </heading>
-        <heading>
-            <_attribute>Where Married</_attribute>
-            <_longname>Name of church or chapel</_longname>
-        </heading>
-        <heading>
-            <_attribute>How Married</_attribute>
-            <_longname>e.g. According to the Rites and Ceremonies of the Roman Catholic Church</_longname>
-        </heading>
-        <section role='Family' type='family' title='Groom/Bride'>
-            <column>
-                <_attribute>Name</_attribute>
-            </column>
-            <column>
-                <_attribute>Age</_attribute>
-            </column>
-            <column>
-                <_attribute>Condition</_attribute>
-                <_longname>Whether Bachelor, Spinster, Widower, or Widow</_longname>
-            </column>
-            <column>
-                <_attribute>Rank or Profession</_attribute>
-            </column>
-            <column>
-                <_attribute>Residence at Time of Marriage</_attribute>
-            </column>
-        </section>
-        <section role='Groom Father' type='person' title='Groom&apos;s Father'>
-            <column>
-                <_attribute>Name</_attribute>
-            </column>
-            <column>
-                <_attribute>Rank or Profession</_attribute>
-            </column>
-        </section>
-        <section role='Bride Father' type='person' title='Bride&apos;s Father'>
-            <column>
-                <_attribute>Name</_attribute>
-            </column>
-            <column>
-                <_attribute>Rank or Profession</_attribute>
-            </column>
-        </section>
-        <section role='Witness' type='multi' title='Witnesses'>
-            <column>
-                <_attribute>Name</_attribute>
-            </column>
-            <column>
-                <_attribute>Role</_attribute>
-                <_longname>e.g. Witness, Officiating Priest, Officiating Minister</_longname>
-            </column>
-        </section>
-    </form>
-    <form id='IEDeath' type='Death' title='Irish Death Register'>
-        <heading>
-            <_attribute>Superintendent Registrar&apos;s District</_attribute>
-        </heading>
-        <heading>
-            <_attribute>Registrar&apos;s District</_attribute>
-        </heading>
-        <heading>
-            <_attribute>Union</_attribute>
-        </heading>
-        <heading>
-            <_attribute>County</_attribute>
-        </heading>
-        <section role='Primary' type='person' title='Deceased'>
-            <column>
-                <_attribute>Name</_attribute>
-            </column>
-            <column>
-                <_attribute>Date of Death</_attribute>
-            </column>
-            <column>
-                <_attribute>Place of Death</_attribute>
-            </column>
-            <column>
-                <_attribute>Sex</_attribute>
-            </column>
-            <column>
-                <_attribute>Condition</_attribute>
-                <_longname>Whether Married, Widowed, or Single</_longname>
-            </column>
-            <column>
-                <_attribute>Age last Birthday</_attribute>
-            </column>
-            <column>
-                <_attribute>Rank or Profession</_attribute>
-            </column>
-            <column>
-                <_attribute>Cause of Death</_attribute>
-            </column>
-            <column>
-                <_attribute>Duration of Illness</_attribute>
-            </column>
-            <column>
-                <_attribute>Medical Attendant</_attribute>
-                <_longname>Medical attendant by whom certified, and when last seen deceased</_longname>
-            </column>
-        </section>
-        <section role='Informant' type='person' title='Informant'>
-            <column>
-                <_attribute>Name</_attribute>
-            </column>
-            <column>
-                <_attribute>Qualification</_attribute>
-                <_longname>Relationship to deceased and whether present at death</_longname>
-            </column>
-            <column>
-                <_attribute>Residence</_attribute>
-                <_longname>If out of the house in which the death occurred</_longname>
-            </column>
-            <column>
-                <_attribute>When Registered</_attribute>
-            </column>
-        </section>
-    </form>
+			<_attribute>Superintendent Registrar&apos;s District</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Registrar&apos;s District</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Union</_attribute>
+		</heading>
+		<heading>
+			<_attribute>County</_attribute>
+		</heading>
+		<section role='Primary' type='person' title='Child'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Date of Birth</_attribute>
+			</column>
+			<column>
+				<_attribute>Place of Birth</_attribute>
+			</column>
+			<column>
+				<_attribute>Sex</_attribute>
+			</column>
+			<column>
+				<_attribute>Baptismal Name</_attribute>
+				<_longname>Name added after registration of birth, and date of baptism</_longname>
+			</column>
+		</section>
+		<section role='Father' type='person' title='Father'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Dwelling Place</_attribute>
+			</column>
+			<column>
+				<_attribute>Rank or Profession</_attribute>
+			</column>
+		</section>
+		<section role='Mother' type='person' title='Mother'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Maiden Surname</_attribute>
+			</column>
+		</section>
+		<section role='Informant' type='person' title='Informant'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Qualification</_attribute>
+				<_longname>Relationship to child and whether present at birth</_longname>
+			</column>
+			<column>
+				<_attribute>Residence</_attribute>
+				<_longname>If out of the house in which the birth occurred</_longname>
+			</column>
+			<column>
+				<_attribute>When Registered</_attribute>
+			</column>
+		</section>
+	</form>
+	<form id='IEMarriage' type='Marriage' title='Irish Marriage Register'>
+		<heading>
+			<_attribute>Superintendent Registrar&apos;s District</_attribute>
+		</heading>
+		<heading>
+			<_attribute>When Married</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Where Married</_attribute>
+			<_longname>Name of church or chapel</_longname>
+		</heading>
+		<heading>
+			<_attribute>How Married</_attribute>
+			<_longname>e.g. According to the Rites and Ceremonies of the Roman Catholic Church</_longname>
+		</heading>
+		<section role='Family' type='family' title='Groom/Bride'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Age</_attribute>
+			</column>
+			<column>
+				<_attribute>Condition</_attribute>
+				<_longname>Whether Bachelor, Spinster, Widower, or Widow</_longname>
+			</column>
+			<column>
+				<_attribute>Rank or Profession</_attribute>
+			</column>
+			<column>
+				<_attribute>Residence at Time of Marriage</_attribute>
+			</column>
+		</section>
+		<section role='Groom Father' type='person' title='Groom&apos;s Father'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Rank or Profession</_attribute>
+			</column>
+		</section>
+		<section role='Bride Father' type='person' title='Bride&apos;s Father'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Rank or Profession</_attribute>
+			</column>
+		</section>
+		<section role='Witness' type='multi' title='Witnesses'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Role</_attribute>
+				<_longname>e.g. Witness, Officiating Priest, Officiating Minister</_longname>
+			</column>
+		</section>
+	</form>
+	<form id='IEDeath' type='Death' title='Irish Death Register'>
+		<heading>
+			<_attribute>Superintendent Registrar&apos;s District</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Registrar&apos;s District</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Union</_attribute>
+		</heading>
+		<heading>
+			<_attribute>County</_attribute>
+		</heading>
+		<section role='Primary' type='person' title='Deceased'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Date of Death</_attribute>
+			</column>
+			<column>
+				<_attribute>Place of Death</_attribute>
+			</column>
+			<column>
+				<_attribute>Sex</_attribute>
+			</column>
+			<column>
+				<_attribute>Condition</_attribute>
+				<_longname>Whether Married, Widowed, or Single</_longname>
+			</column>
+			<column>
+				<_attribute>Age last Birthday</_attribute>
+			</column>
+			<column>
+				<_attribute>Rank or Profession</_attribute>
+			</column>
+			<column>
+				<_attribute>Cause of Death</_attribute>
+			</column>
+			<column>
+				<_attribute>Duration of Illness</_attribute>
+			</column>
+			<column>
+				<_attribute>Medical Attendant</_attribute>
+				<_longname>Medical attendant by whom certified, and when last seen deceased</_longname>
+			</column>
+		</section>
+		<section role='Informant' type='person' title='Informant'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Qualification</_attribute>
+				<_longname>Relationship to deceased and whether present at death</_longname>
+			</column>
+			<column>
+				<_attribute>Residence</_attribute>
+				<_longname>If out of the house in which the death occurred</_longname>
+			</column>
+			<column>
+				<_attribute>When Registered</_attribute>
+			</column>
+		</section>
+	</form>
+	<form id='NYCBirth' type='Birth' title='New York City Birth Certificate'>
+		<heading>
+			<_attribute>Certificate No.</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Date of Report</_attribute>
+		</heading>
+		<section role='Primary' type='person' title='Child'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Date of Birth</_attribute>
+			</column>
+			<column>
+				<_attribute>Place of Birth</_attribute>
+				<_longname>Street and No., or name of hospital or institution</_longname>
+			</column>
+			<column>
+				<_attribute>Sex</_attribute>
+			</column>
+			<column>
+				<_attribute>Color</_attribute>
+			</column>
+		</section>
+		<section role='Father' type='person' title='Father'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Residence</_attribute>
+			</column>
+			<column>
+				<_attribute>Birthplace</_attribute>
+			</column>
+			<column>
+				<_attribute>Age</_attribute>
+			</column>
+			<column>
+				<_attribute>Occupation</_attribute>
+			</column>
+		</section>
+		<section role='Mother' type='person' title='Mother'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Name before Marriage</_attribute>
+			</column>
+			<column>
+				<_attribute>Residence</_attribute>
+			</column>
+			<column>
+				<_attribute>Birthplace</_attribute>
+			</column>
+			<column>
+				<_attribute>Age</_attribute>
+			</column>
+			<column>
+				<_attribute>Occupation</_attribute>
+			</column>
+			<column>
+				<_attribute>Number of Previous Children</_attribute>
+			</column>
+			<column>
+				<_attribute>How Many Now Living</_attribute>
+			</column>
+		</section>
+		<section role='Informant' type='person' title='Informant'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Residence</_attribute>
+			</column>
+		</section>
+	</form>
+	<form id='NYCDeath' type='Death' title='NYC Certificate of Death'>
+		<heading>
+			<_attribute>Borough</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Certificate No.</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Filed</_attribute>
+		</heading>
+		<section role='Primary' type='person' title='Deceased'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Sex</_attribute>
+			</column>
+			<column>
+				<_attribute>Color or Race</_attribute>
+			</column>
+			<column>
+				<_attribute>Marital Status</_attribute>
+			</column>
+			<column>
+				<_attribute>Date of Birth</_attribute>
+			</column>
+			<column>
+				<_attribute>Age</_attribute>
+			</column>
+			<column>
+				<_attribute>Occupation</_attribute>
+				<_longname>Trade, profession, or particular kind of work</_longname>
+			</column>
+			<column>
+				<_attribute>Industry or Employer</_attribute>
+				<_longname>General nature of industry, business or establishment in which employed (or employer)</_longname>
+			</column>
+			<column>
+				<_attribute>Date Last Worked</_attribute>
+			</column>
+			<column>
+				<_attribute>Total Time in Occupation</_attribute>
+			</column>
+			<column>
+				<_attribute>Birthplace</_attribute>
+			</column>
+			<column>
+				<_attribute>Citizenship</_attribute>
+			</column>
+			<column>
+				<_attribute>How Long in U.S.</_attribute>
+			</column>
+			<column>
+				<_attribute>How Long Resident in City</_attribute>
+				<_longname>How long resident in City of New York</_longname>
+			</column>
+			<column>
+				<_attribute>War Veteran</_attribute>
+			</column>
+			<column>
+				<_attribute>Name of War</_attribute>
+			</column>
+			<column>
+				<_attribute>Usual Residence</_attribute>
+			</column>
+			<column>
+				<_attribute>Where Disease Contracted</_attribute>
+			</column>
+			<column>
+				<_attribute>Place of Death</_attribute>
+			</column>
+			<column>
+				<_attribute>Character of Premises</_attribute>
+			</column>
+			<column>
+				<_attribute>Date of Death</_attribute>
+			</column>
+			<column>
+				<_attribute>Cause of Death</_attribute>
+			</column>
+			<column>
+				<_attribute>Cause Duration</_attribute>
+			</column>
+			<column>
+				<_attribute>Contributory Cause</_attribute>
+			</column>
+			<column>
+				<_attribute>Contributory Duration</_attribute>
+			</column>
+			<column>
+				<_attribute>Place of Burial</_attribute>
+			</column>
+			<column>
+				<_attribute>Date of Burial</_attribute>
+			</column>
+			<column>
+				<_attribute>Undertaker</_attribute>
+			</column>
+			<column>
+				<_attribute>Undertaker Address</_attribute>
+			</column>
+		</section>
+		<section role='Spouse' type='person' title='Husband/Wife'>
+			<column>
+				<_attribute>Name</_attribute>
+				<_longname>Wife/Husband of</_longname>
+			</column>
+		</section>
+		<section role='Father' type='person' title='Father'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Birthplace</_attribute>
+			</column>
+		</section>
+		<section role='Mother' type='person' title='Mother'>
+			<column>
+				<_attribute>Name</_attribute>
+				<_longname>Maiden Name of Mother</_longname>
+			</column>
+			<column>
+				<_attribute>Birthplace</_attribute>
+			</column>
+		</section>
+		<section role='Informant' type='person' title='Informant'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Relationship</_attribute>
+			</column>
+			<column>
+				<_attribute>Address</_attribute>
+			</column>
+		</section>
+	</form>
+	<form id='NYCMarCert' type='Marriage' title='NYC Certificate and Record of Marriage'>
+		<heading>
+			<_attribute>Borough</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Certificate No.</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Filed</_attribute>
+		</heading>
+		<section role='Groom' type='person' title='Groom'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Residence</_attribute>
+			</column>
+			<column>
+				<_attribute>Age</_attribute>
+			</column>
+			<column>
+				<_attribute>Color</_attribute>
+			</column>
+			<column>
+				<_attribute>Single, Widowed or Divorced</_attribute>
+			</column>
+			<column>
+				<_attribute>Occupation</_attribute>
+			</column>
+			<column>
+				<_attribute>Birthplace</_attribute>
+			</column>
+			<column>
+				<_attribute>Number of Previous Marriages</_attribute>
+			</column>
+		</section>
+		<section role='Bride' type='person' title='Bride'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Residence</_attribute>
+			</column>
+			<column>
+				<_attribute>Age</_attribute>
+			</column>
+			<column>
+				<_attribute>Color</_attribute>
+			</column>
+			<column>
+				<_attribute>Single, Widowed or Divorced</_attribute>
+			</column>
+			<column>
+				<_attribute>Maiden Name if a Widow</_attribute>
+			</column>
+			<column>
+				<_attribute>Birthplace</_attribute>
+			</column>
+			<column>
+				<_attribute>Number of Previous Marriages</_attribute>
+			</column>
+		</section>
+		<section role='Groom Father' type='person' title='Groom&apos;s Father'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+		</section>
+		<section role='Groom Mother' type='person' title='Groom&apos;s Mother'>
+			<column>
+				<_attribute>Name</_attribute>
+				<_longname>Mother's Maiden Name</_longname>
+			</column>
+		</section>
+		<section role='Bride Father' type='person' title='Bride&apos;s Father'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+		</section>
+		<section role='Bride Mother' type='person' title='Bride&apos;s Mother'>
+			<column>
+				<_attribute>Name</_attribute>
+				<_longname>Mother's Maiden Name</_longname>
+			</column>
+		</section>
+		<section role='Officiant' type='person' title='Officiant'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Official Station</_attribute>
+			</column>
+			<column>
+				<_attribute>Residence</_attribute>
+			</column>
+		</section>
+		<section role='Witness' type='multi' title='Witnesses'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+		</section>
+	</form>
+	<form id='NYCMarLic' type='Marriage' title='NYC Marriage License'>
+		<heading>
+			<_attribute>Borough</_attribute>
+		</heading>
+		<heading>
+			<_attribute>License No.</_attribute>
+		</heading>
+		<heading>
+			<_attribute>Filed</_attribute>
+		</heading>
+		<section role='Family' type='family' title='Groom/Bride'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Color or Race</_attribute>
+			</column>
+			<column>
+				<_attribute>Residence</_attribute>
+			</column>
+			<column>
+				<_attribute>Age</_attribute>
+			</column>
+			<column>
+				<_attribute>Date of Birth</_attribute>
+			</column>
+			<column>
+				<_attribute>Occupation</_attribute>
+			</column>
+			<column>
+				<_attribute>Birthplace</_attribute>
+			</column>
+			<column>
+				<_attribute>Number of Previous Marriages</_attribute>
+			</column>
+			<column>
+				<_attribute>Is Applicant a Divorced Person</_attribute>
+			</column>
+		</section>
+		<section role='Groom Father' type='person' title='Groom&apos;s Father'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Country of Birth</_attribute>
+			</column>
+		</section>
+		<section role='Groom Mother' type='person' title='Groom&apos;s Mother'>
+			<column>
+				<_attribute>Name</_attribute>
+				<_longname>Mother's Maiden Name</_longname>
+			</column>
+			<column>
+				<_attribute>Country of Birth</_attribute>
+			</column>
+		</section>
+		<section role='Bride Father' type='person' title='Bride&apos;s Father'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Country of Birth</_attribute>
+			</column>
+		</section>
+		<section role='Bride Mother' type='person' title='Bride&apos;s Mother'>
+			<column>
+				<_attribute>Name</_attribute>
+				<_longname>Mother's Maiden Name</_longname>
+			</column>
+			<column>
+				<_attribute>Country of Birth</_attribute>
+			</column>
+		</section>
+		<section role='Groom Former Spouse' type='multi' title='Groom&apos;s Former Spouses'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Living or Dead</_attribute>
+			</column>
+			<column>
+				<_attribute>Where Last Lived Together</_attribute>
+			</column>
+			<column>
+				<_attribute>When and Where Divorce Granted</_attribute>
+			</column>
+			<column>
+				<_attribute>Grounds of Divorce</_attribute>
+			</column>
+			<column>
+				<_attribute>Where Defendant Served</_attribute>
+			</column>
+			<column>
+				<_attribute>Defendant Appeared in Court</_attribute>
+			</column>
+			<column>
+				<_attribute>Attorney or Waiver</_attribute>
+			</column>
+		</section>
+		<section role='Bride Former Spouse' type='multi' title='Bride&apos;s Former Spouses'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Living or Dead</_attribute>
+			</column>
+			<column>
+				<_attribute>Where Last Lived Together</_attribute>
+			</column>
+			<column>
+				<_attribute>When and Where Divorce Granted</_attribute>
+			</column>
+			<column>
+				<_attribute>Grounds of Divorce</_attribute>
+			</column>
+			<column>
+				<_attribute>Where Defendant Served</_attribute>
+			</column>
+			<column>
+				<_attribute>Defendant Appeared in Court</_attribute>
+			</column>
+			<column>
+				<_attribute>Attorney or Waiver</_attribute>
+			</column>
+		</section>
+		<section role='Officiant' type='person' title='Officiant'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Official Station</_attribute>
+			</column>
+			<column>
+				<_attribute>Address</_attribute>
+			</column>
+		</section>
+		<section role='Witness' type='multi' title='Witnesses'>
+			<column>
+				<_attribute>Name</_attribute>
+			</column>
+			<column>
+				<_attribute>Address</_attribute>
+			</column>
+		</section>
+	</form>
 </forms>
